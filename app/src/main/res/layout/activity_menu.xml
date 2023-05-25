@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_centerVertical="true">
+
+        <Spinner
+            android:id="@+id/menu_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu_spinner"
+            android:layout_marginTop="24dp"
+            android:id="@+id/menu_recycler_view"
+            android:layout_toRightOf="@+id/menu_line">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/menu_spinner"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_above="@+id/menu_order_confirm_btn"
+            android:id="@+id/menu_line"/>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/menu_order_confirm_btn"
+            android:layout_below="@+id/menu_recycler_view"
+            android:background="@drawable/ic_smart_rest_confirm_foreground"
+            android:backgroundTint="@color/colorPrimaryDark"
+            />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/ic_smart_rest_goback_foreground"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/menu_order_goback_btn"/>
+
+</RelativeLayout>

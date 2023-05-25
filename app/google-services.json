@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654182221796",
+    "project_id": "smart-rest-fc144",
+    "storage_bucket": "smart-rest-fc144.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654182221796:android:9b4b68ae5c998ec84b69f1",
+        "android_client_info": {
+          "package_name": "pt.unl.fct.di.scmu.smartrest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654182221796-jd1l3arq3ivchcqbo7sjlbjdea5npaht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYIMTtipyxUdZ1Md3eHuyeCxdMzQqrpOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654182221796-jd1l3arq3ivchcqbo7sjlbjdea5npaht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

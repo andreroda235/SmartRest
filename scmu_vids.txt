@@ -1,0 +1,14 @@
+
+SCMU:
+
+mais uma playlist em rest api node js
+https://www.youtube.com/watch?v=3dFT7QaVSZ8&list=PLJetLDY7yKupm5WTx02ylh1I25rJLPvXe
+
+pedidos rest em node js + playlist trigger functions em firestore
+https://www.youtube.com/watch?v=iIVlRZIo2-c&list=PL0X1HZ56-JSAafMj9rTRn2F5yZTDDLEzL&index=1
+
+//ARDUINO
+https://www.youtube.com/watch?v=BE2lPJ43t4k
+
+//Push notifications on firstore changes
+https://www.youtube.com/watch?v=Y6jMKQ9zo-o&t=29s

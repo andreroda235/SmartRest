@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#004A7C">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/register_layout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="16dp"
+            android:id="@+id/register_logo_layout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_logo_img"
+                android:src="@drawable/ic_smart_rest_logo_foreground"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/register_logo_img"
+                android:textColor="#FFFFFF"
+                android:text="Smart Rest"
+                android:layout_centerVertical="true"
+                android:textSize="24dp"
+                android:id="@+id/register_logo_text"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/register_rest_layout"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/register_rest_logo_img"
+                android:src="@drawable/ic_smart_rest_logo_foreground"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Restaurant Name"
+                android:textColorHint="#808080"
+                android:layout_toRightOf="@+id/register_rest_logo_img"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:id="@+id/register_rest_text"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/register_name_layout"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/register_name_logo_img"
+                android:src="@drawable/ic_smart_rest_logo_foreground"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Your Name"
+                android:textColorHint="#808080"
+                android:layout_toRightOf="@+id/register_name_logo_img"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:id="@+id/register_name_text"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/register_email_layout"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/register_email_logo_img"
+                android:src="@drawable/ic_smart_rest_logo_foreground"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Email"
+                android:textColorHint="#808080"
+                android:layout_toRightOf="@+id/register_email_logo_img"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:id="@+id/register_email_text"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/register_password_layout"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/register_password_logo_img"
+                android:src="@drawable/ic_smart_rest_logo_foreground"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Password"
+                android:textColorHint="#808080"
+                android:layout_toRightOf="@+id/register_password_logo_img"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:id="@+id/register_password_text"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/register_confirmPass_layout"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/register_confirmPass_logo_img"
+                android:src="@drawable/ic_smart_rest_logo_foreground"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Confirm Password"
+                android:textColorHint="#808080"
+                android:layout_toRightOf="@+id/register_confirmPass_logo_img"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:id="@+id/register_confirmPass_text"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sign Up!"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2F76A6"
+            android:id="@+id/register_signup_btn"
+        />
+
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_smart_rest_return_foreground"
+        android:background="#2F76A6"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/register_return_btn"
+        />
+
+    <RelativeLayout
+        android:id="@+id/register_loadingPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:indeterminate="true"
+            android:visibility="visible"
+            android:id="@+id/register_loading_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registering User..."
+            android:textColor="#FFFFFF"
+            android:textSize="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/register_loading_icon"
+            android:id="@+id/register_loading_text"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
